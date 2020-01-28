@@ -1,6 +1,6 @@
 $('.loc-list').on('change', function() {
     // Remove class if city changed again
-    $('.weather-details').removeClass('animated fadeInDown');
+    $('.weather-info').removeClass('animated fadeInDown');
     $('.weather-icon').removeClass('animated fadeInDown');
 
     var city_id = $('#loc-list').val();
