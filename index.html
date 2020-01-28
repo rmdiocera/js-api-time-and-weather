@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>City Weather and Time</title>
+    <link rel="stylesheet" href="styles/animate.css">
+    <link rel="stylesheet" href="styles/hue.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/bootstrap-select.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body class="air">
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 montserrat">
+                            <h4 class="card-title">Worldwide Time and Weather</h4>
+                            <div class="weather-details">
+                                <div class="loc-dropdown">
+                                    <select name="" id="loc-list" class="loc-list selectpicker" data-dropup-auto="false" data-size="5"> +
+                                        <option value="">Select a city</option> +
+                                        <option value="2759794">Amsterdam</option> +
+                                        <option value="2193733">Auckland</option> +
+                                        <option value="1816670">Beijing</option> +
+                                        <option value="2950159">Berlin</option> +
+                                        <option value="2800866">Brussels</option> +
+                                        <option value="360630">Cairo</option> +
+                                        <option value="2618425">Copenhagen</option> +
+                                        <option value="1273043">Dhaka</option> +
+                                        <option value="1566083">Ho Chi Minh City</option> +
+                                        <option value="745044">Istanbul</option> +
+                                        <option value="1642911">Jakarta</option> +
+                                        <option value="2267057">Lisbon</option> +
+                                        <option value="2643743">London</option> +
+                                        <option value="5368361">Los Angeles</option> +
+                                        <option value="3117735">Madrid</option> +
+                                        <option value="1701668">Manila</option> +
+                                        <option value="2158177">Melbourne</option> +
+                                        <option value="3530597">Mexico City</option> +
+                                        <option value="524901">Moscow</option> +
+                                        <option value="5128581">New York</option> +
+                                        <option value="1853909">Osaka</option> +
+                                        <option value="2988507">Paris</option> +
+                                        <option value="6539761">Rome</option> +
+                                        <option value="3451190">Rio de Janeiro</option> +
+                                        <option value="3669881">San Francisco</option> +
+                                        <option value="1835848">Seoul</option> +
+                                        <option value="1796236">Shanghai</option> +
+                                        <option value="1880252">Singapore</option> +
+                                        <option value="2673730">Stockholm</option> +
+                                        <option value="1668341">Taipei</option> +
+                                        <option value="3617052">Tel Aviv</option> +
+                                        <option value="1850147">Tokyo</option> +
+                                        <option value="2761369">Vienna</option> +
+                                        <option value="756135">Warsaw</option> +
+                                        <option value="2179537">Wellington</option> +
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 merriweather">
+                            <div class="weather-info">
+                                <p class="location"></p>
+                                <p class="weather-temp"></p>
+                                <p class="weather-main"></p>
+                                <p class="weather-desc"></p>
+                                <p class="local-time"></p>
+                            </div>                            
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <img src="" alt="" class="weather-icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <span>Made by Reginald M. Diocera - 2020</span>
+        <span class="float-right"><a href="https://www.freepik.com/free-photos-vectors/snow">Snow vector created by freepik - www.freepik.com</a></span>
+    </footer>
+
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="script/bootstrap-select.js"></script>
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+https://home.openweathermap.org/
+Username: rgdcr97.3
+Password: 003013023
+API Key: 79d4dcc5b864a5c687e744a74e3485e0
